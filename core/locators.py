@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+class BasicPageLocators(object):
+    LOG_OUT_BUTTON = (By.CLASS_NAME, 'logout')
 
 class LoginPageLocators(object):
     USERNAME_FIELD = (By.ID, 'username')
